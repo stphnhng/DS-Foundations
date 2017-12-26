@@ -1,0 +1,29 @@
+import java.util.HashMap;
+
+public class Problem1_5 {
+	
+	public static void main(String[]args){
+		
+	}
+	
+	public String compressString(String word){
+		HashMap<String, Integer> countMap = new HashMap<String, Integer>();
+		for(int i = 0; i < word.length(); i++){
+			String letter = word.charAt(i) + "";
+			if(!countMap.containsKey(letter)){
+				countMap.put(letter, 0);
+			}
+			countMap.put(letter, countMap.get(letter) + 1);
+		}
+		String result = "";
+		for(String key : result.keySet()){
+			result += key + Integer.toString(result.get(key));
+		}
+		if(result.length() == word.length()){
+			return word;
+		}
+		return result;
+	}
+	
+	
+}

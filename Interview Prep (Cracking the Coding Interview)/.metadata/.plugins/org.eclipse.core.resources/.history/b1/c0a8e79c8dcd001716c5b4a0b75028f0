@@ -1,0 +1,14 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class Problem1_1 {
+	
+	
+	public boolean hasUnique(String word){
+		Set<Character> charList = new HashSet<Character>();
+		for(int i = 0; i < word.length(); i++){
+			
+		}
+		return true;
+	}
+}

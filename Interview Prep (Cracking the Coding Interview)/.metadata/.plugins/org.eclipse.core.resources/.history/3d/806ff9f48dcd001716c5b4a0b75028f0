@@ -1,0 +1,9 @@
+
+public class Problem1_3 {
+
+	
+	public boolean isPermutation(String word1, String word2){
+		
+		
+	}
+}

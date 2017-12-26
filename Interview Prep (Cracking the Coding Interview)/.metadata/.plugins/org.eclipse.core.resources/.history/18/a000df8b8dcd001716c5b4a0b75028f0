@@ -1,0 +1,10 @@
+
+public class Problem1_1 {
+	
+	
+	public boolean hasUnique(String word){
+		Set<Character> charList = new HashSet<char>();
+		for
+		return true;
+	}
+}

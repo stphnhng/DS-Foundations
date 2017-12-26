@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class Problem1_3 {
+
+	
+	public boolean isPermutation(String word1, String word2){
+		int[] arr1 = generateArray(word1);
+		int[] arr2 = generateArray(word2);
+		return(Arrays.equals(arr1, arr2));
+	}
+	
+	public int[] generateArray(String word){
+		int[] result = new int[256];
+		for(char letter : word.toCharArray()){
+			
+		}
+		return result;
+	}
+}

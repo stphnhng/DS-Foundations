@@ -1,0 +1,8 @@
+
+public class Problem1_3 {
+
+	
+	public boolean isPermutation(String word1, String word2){
+		int[256] arr1 = generateArray(word1);
+	}
+}
